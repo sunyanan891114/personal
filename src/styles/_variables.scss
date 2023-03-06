@@ -1,0 +1,17 @@
+$color-primary: #fdce0c;
+
+$font-size-title: 65px;
+$font-size-base: 16px;
+
+$font-color-primary: #151515;
+$font-color-secondary: #9c9c9c;
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

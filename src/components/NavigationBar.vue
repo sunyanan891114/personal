@@ -1,7 +1,7 @@
 <template>
   <el-menu
     :default-active="activeIndex"
-    class="el-menu-demo"
+    class="menu"
     mode="horizontal"
     :ellipsis="false"
     @select="handleSelect"
@@ -24,6 +24,12 @@ const handleSelect = (key: string, keyPath: string[]) => {
 </script>
 
 <style>
+.menu.el-menu {
+  position: sticky;
+  z-index: 1;
+  background: none;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
